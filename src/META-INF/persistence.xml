@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="BlucouBackupPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>DomainClasses.Visits</class>
+    <class>DomainClasses.Users</class>
+    <class>DomainClasses.Chats</class>
+    <class>DomainClasses.File</class>
+    <class>com.blucou.backup.DomainClasses.FileBlocks</class>
+    <class>com.blucou.backup.DomainClasses.File</class>
+    <class>com.blucou.backup.DomainClasses.FileBackupobj</class>
+    <class>com.blucou.backup.DomainClasses.Storage</class>
+    <class>com.blucou.backup.DomainClasses.FileStorage</class>
+    <class>com.blucou.backup.DomainClasses.Backupobj</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/blucoubackup"/>
+      <property name="javax.persistence.jdbc.password" value="rtoxb@557X"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+    </properties>
+  </persistence-unit>
+</persistence>

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: com.blucou.backup
+Main-Class: com.blucou.backup.BlucouBackup
+
