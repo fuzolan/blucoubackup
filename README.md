@@ -23,7 +23,7 @@ I startet this in 2014 in a sleepless night. I tried different things as backup 
 * A backupsolution for someone who hates databases ^^
 * A backupsolution with a simple restore ( there is a possability that you must reassembly all your dusty storages)
 
-# how i used it
+# How I used it
 I backed up my arm5 nas with bad package distro support, different Linux, Windows and one Mac-Client. I have some external Hdds full of chunks. I never deleted something from my backups. There is one database running on my Pi which also does other things. Some clients are backed up through a share, others have it's own little storage to write some data. At some point the metadata in the db will be dumped and secured with the keys in a save place. If a storage is too small, it will be saved in a good place. If there are too many medias then smaller ones will copied on newer bigger ones.
 
 # Features that I wanted to implement 
