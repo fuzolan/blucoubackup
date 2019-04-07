@@ -54,9 +54,6 @@ I used IntelliJ. You should run the Tests. There are no Unit-Tests but it's a fu
 * mysql-connector
 * junit
 
-# Licence
-Not decided yet. For personal use it will be absolutely free. If there is a corporate interest involved then just contact me.
-
 # Donation
 If you find this project useful or you have saved some data with it then you could share a coffee or something. 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/BeckFlorian)
