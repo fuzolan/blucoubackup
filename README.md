@@ -21,7 +21,7 @@ I startet this in 2014 in a sleepless night. I tried different things as backup 
 * Saves no metadata like read-only flag or owner or any kind of os specific things
 * A backupsolution for a beginner
 * A backupsolution for someone who hates databases ^^
-* A backupsolution with a simple restore ( there is a possability that you must reassembly all your dusty storages)
+* A backupsolution with a simple restore ( there is a possability that you must reassembly all your dusty storages )
 
 # How I used it
 I backed up my arm5 nas with bad package distro support, different Linux, Windows and one Mac-Client. I have some external Hdds full of chunks. I never deleted something from my backups. There is one database running on my Pi which also does other things. Some clients are backed up through a share, others have it's own little storage to write some data. At some point the metadata in the db will be dumped and secured with the keys in a save place. If a storage is too small, it will be saved in a good place. If there are too many medias then smaller ones will copied on newer bigger ones.
@@ -33,10 +33,26 @@ I backed up my arm5 nas with bad package distro support, different Linux, Window
 * meta data search
 * storage groups
 * automatic multiple backup of important data to different storage groups
+* Port -> Spring
 * more tests
 
 # Getting started
 comming soon 
+
+# How to work on this
+I used IntelliJ. You should run the Tests. There are no Unit-Tests but it's a functional test about backup/cleanup/restore. So start your debugger and you will see what's going on. Take also a look in the testdatabase.db (sqlite) and maybe the testdata which is written. Ah and of course you should know something about Java too.
+
+# Used Libs
+* BouncyCastle
+* log4j
+* ormlite
+* commons-cli
+* commons-io
+* commons-logging
+* commons-configuration
+* sqlite-jdbc
+* mysql-connector
+* junit
 
 # Licence
 Not decided yet. For personal use it will be absolutely free. If there is a corporate interest involved then just contact me.
