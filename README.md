@@ -15,7 +15,7 @@ I startet this in 2014 in a sleepless night. I tried different things as backup 
 * Cleanup old versions or deleted files
 * mysql / sqlite support
 * should be realy collisionfree (crc32, md5, sha512 of all your data)
-* Optionally stores data as jpeg, so amazon prime users could backup everything to amazons photo cloud without pay anything ( but pssst )
+* Optionally stores data as jpeg
 # What it's not
 * No precise snapshot of a specific time
 * Saves no metadata like read-only flag or owner or any kind of os specific things
