@@ -14,7 +14,7 @@ I startet this in 2014 in a sleepless night. I tried different things as backup 
 * Multithreaded in some areas
 * Cleanup old versions or deleted files
 * mysql / sqlite support
-* should be realy collisionfree (crc32, md5, sha512 of all your data)
+* should be really collisionfree (crc32, md5, sha512 of all your data)
 * Optionally stores data as jpeg
 # What it's not
 * No precise snapshot of a specific time
